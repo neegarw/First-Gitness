@@ -1,0 +1,229 @@
+:root{
+    --qirmizi: #fd634d;
+    --yasil: #a1c927;
+}
+header{
+    height: 100vh;
+    background: url(../img/headerbg.jpg) 60% 50% /cover;
+    text-align: center;
+    position: relative;
+}
+#title{
+    width: 100%;
+    position: absolute;
+    bottom: 16vh;
+}
+#logo{
+    padding-top: 20px ;
+}
+menu{
+    list-style: none;
+}
+menu li{
+    padding: 3px p;
+    text-align: center;
+    font-size: 0.8em 'Avenir Next Rounded',sans-serif;
+    font-family: 'Avenir Next Rounded';
+    text-transform: uppercase;
+    color: #fff;
+}
+menu li a{
+    color: #fff;
+}
+h1, h5{
+    font-family:'Myriad Pro';
+    text-transform: uppercase;
+    color: #fff;
+}
+h1 { font-size: 2em}
+h2{
+    font: 2em 'Open Sans';
+    text-transform: uppercase
+}
+h3{font: 1.5em  "Open Sans";}
+h5{
+    font-size: 1em ;
+    letter-spacing: 3px;
+}
+h6 {
+    font: .9em Montserrat;
+    text-transform: uppercase;
+}
+#art{padding: 70px 0;}
+#art article{ 
+    height: 400px;
+    padding: 35px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+#art p, a{
+    font: 1em "Proxima Nova";
+    line-height: 1.5em;
+    font-weight: 400;
+}
+#art article i{font-size: 2.8em;} 
+#fitnessfirst{background: url(../img/fitnessfirst.jpg);}
+#yourbody{background: url(../img/yourbody.jpg);}
+#lifestyle{background: url(../img/lifestyle.jpg) 70% center/cover;}
+#summeroffun{background: url(../img/summeroffun.jpg);}
+#uzum{background: url(../img/uzum.jpg);}
+#mango{background: url(../img/mango.jpg);}
+#top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    color: #fff;
+    text-align: center;
+    background: url(../img/footerbg.jpg) 40% center/cover;
+    height: 100vh;
+}
+#top h2{
+    font: 2em "Open Sans";
+    color: #fff;
+}
+#top p{
+    font: 1em/1.5  "Open Sans";
+    color: #fff;
+}
+#bottom{
+    padding-top: 44px;
+    height:100vh;
+    background-color: #0c1119;
+}
+#bottom h4{
+    font:1em "Open Sans";
+    color: #fff;
+}
+#bottom p{
+    font: .9em "Open Sans";
+    color: #8297a7;
+}
+#bottom .col{
+    display: flex;
+    flex-direction: column;
+}
+#bottom i{
+    padding-top: 20px;
+    font-size: 3em;
+    color: #777;
+    transition: 1s;
+}
+#bottom{
+.fa-square-facebook:hover{color: blue;}
+.fa-x-twitter:hover{ color: #000; }
+.fa-youtube:hover{ color: red;}
+.fa-linkedin:hover{ color: darkblue;}
+}
+#bottom .container{
+    padding: 0 10px ;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+}
+.stay{
+    padding-top: 22px;
+}
+.abt{
+    width: 69%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#bottom input{
+    text-align: left;
+    height: 50px;
+    border-radius: 2px;
+    color: #8a9ca5;
+    border: none;
+    padding: 0 23px ;
+}
+button{
+    text-align: center;
+    border-radius: 2px;
+    border: none;
+    height: 50px;
+    color: #fff;
+}
+.row i {
+    font-size: 1em;
+    color:#e3e9e9 ;
+    padding: 25px 0;
+}
+.bgag a{
+    display: inline-block;
+    border-bottom: 1px solid var(--yasil);
+    margin: 15px 0;
+}
+.bgyasil{background-color: var(--yasil);}
+.bgqirmizi{background-color: var(--qirmizi);}
+.bgag{
+    background-color: #fff;
+    font: .8em/1.5 "Open Sans";
+    color: #656e74;
+    text-align: center;
+}
+.txtyasil{color: var(--yasil);}
+.txtqirmizi{color: var(--qirmizi);}
+.txtag{color: #fff;}
+.txtqara{color: #000;}
+.height50{height: 50vh;}
+.artpadding{padding: 54px 38px;}
+.center{text-align: center;}
+
+@media screen and (min-width: 768px){
+    .container{
+        max-width: 1183px;
+        margin: auto;
+    }
+    header{text-align: initial;}
+    h5{padding-right:23px ;}
+    #logo{padding: 40px 0 0 50px ;}
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    menu{padding:10px 40px 0 0 }
+    menu li{
+        padding: initial;
+        padding: 2vw;
+        display: inline-block;
+    }
+    #title{
+        width: initial;
+        text-align: right;
+        left: 120px ;
+        bottom: 145px;
+    }
+    .row::after{
+        content: '';
+        display: table;
+        clear: both;
+    }
+    .fleft{float: left;}
+    .fright{float: right;}
+    .col25{width: 25%;}
+    .col33{width: 33.33%;}
+    .col66{ width: 66.66%;}
+    #top h2{font-size: 3em;}
+    #bottom .col{flex-direction: row;}
+    .about{flex-direction: row;
+        justify-content: space-between;}
+    .stay{padding-top: initial;}
+    form{
+        padding-top: 55px;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    form .name{width:200px ;}
+    form .email{width: 340px;}
+    form button{width: 180px;}
+}
