@@ -63,12 +63,12 @@ h6 {
     font-weight: 400;
 }
 #art article i{font-size: 2.8em;} 
-#fitnessfirst{background: url(../img/fitnessfirst.jpg);}
-#yourbody{background: url(../img/yourbody.jpg);}
-#lifestyle{background: url(../img/lifestyle.jpg) 70% center/cover;}
-#summeroffun{background: url(../img/summeroffun.jpg);}
-#uzum{background: url(../img/uzum.jpg);}
-#mango{background: url(../img/mango.jpg);}
+#fitnessfirst{background: url(../img/fitnessfirst.jpg) center/cover;}
+#yourbody{background: url(../img/yourbody.jpg) center/cover;}
+#lifestyle{background: url(../img/lifestyle.jpg) center/cover;}
+#summeroffun{background: url(../img/summeroffun.jpg) center/cover;}
+#uzum{background: url(../img/uzum.jpg) center/cover;}
+#mango{background: url(../img/mango.jpg) center/cover;}
 #top{
     display: flex;
     flex-direction: column;
@@ -77,7 +77,7 @@ h6 {
     gap: 25px;
     color: #fff;
     text-align: center;
-    background: url(../img/footerbg.jpg) 40% center/cover;
+    background: url(../img/footerbg.jpg) center/cover;
     height: 100vh;
 }
 #top h2{
