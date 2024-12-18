@@ -7,11 +7,21 @@ header{
     background: url(../img/headerbg.jpg) 60% 50% /cover;
     text-align: center;
     position: relative;
+    overflow: hidden;
 }
 #title{
     width: 100%;
     position: absolute;
     bottom: 16vh;
+}
+#zolaq{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    background-color:var(--qirmizi) ;
+    opacity: .3;
+    transform: scale(1.1) translate( 20px, 30px) rotate(-2.4deg);
 }
 #logo{
     padding-top: 20px ;
@@ -20,7 +30,7 @@ menu{
     list-style: none;
 }
 menu li{
-    padding: 3px p;
+    padding: 3px ;
     text-align: center;
     font-size: 0.8em 'Avenir Next Rounded',sans-serif;
     font-family: 'Avenir Next Rounded';
